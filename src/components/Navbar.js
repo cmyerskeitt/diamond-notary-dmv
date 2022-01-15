@@ -1,6 +1,6 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
-import Logo from './images/DiamondNotary.png'
+import Logo from './images/DiamondNotaryDMVLogo.jpg'
 // import './Navbar.css'
 
 function Navbar() {  
@@ -8,9 +8,9 @@ function Navbar() {
      
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                <Link to='/' class="navbar-brand" >
-                    <img src={Logo} width="250" height="150" class="d-inline-block align-text-top" alt='Diamond Notary Logo'/>       
-                </Link>
+                {/* <Link to='/' class="navbar-brand" >
+                    <img src={Logo} width="100" height="100" class="d-inline-block align-text-top" alt='Diamond Notary Logo'/>       
+                </Link> */}
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
