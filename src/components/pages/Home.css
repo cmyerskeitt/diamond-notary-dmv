@@ -26,28 +26,66 @@
 } 
 
 .card{
-    border-width: 0;
+    /* border-width: 0; */
     background-color: rgb(91,140,144);
-    top: 70px;
+    /* top: 70px; */
     position: static;
 
 }
 
 .card-img-top{
-        position: static;
-        height: 400px;
-        width: 400px;
-        display: block;
-        margin-left: auto;
-        margin-right: auto;
-        margin-top: 40px;
-        margin-bottom: 40px;
-        border-style: inset;
-        border-color: black;
-        border-width: 10px;
+    position: static;
+    height: 400px;
+    width: 400px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    border-style: inset;
+    border-color: black;
+    border-width: 10px;
 }
 
+.info {
+    /* background-color: rgb(68,106,130);  */
+    background-color: rgb(119,209,139);
+    max-width: 100%;
+    position: relative;
+    text-align: center;
+    color: white; 
+    font-family: "Great Vibes", cursive; 
+    font-size: 60px; 
+    line-height: 50px; 
+    text-align: center; 
+    text-shadow: 0 5px 5px black; 
+    padding: 50px;
+}
 
+.card-body{
+    color: rgb(68,106,130);
+    background-color: white;
+    text-align: center; 
+}
+
+.card-text{
+    color: white;
+    background-color:rgb(68,106,130) ;
+    text-align: center; 
+    font-size: 40px;
+    padding: 25px;
+    border: 5px solid rgb(68,106,130)
+}
+
+ul{
+    display:inline-block;
+    padding-left: 0;
+    text-align: left;
+    font-size: 30px;
+    padding: 30px;
+    
+
+}
 
 
 /* 
@@ -63,24 +101,7 @@
     left: 5%;
 }  */
 
-.info {
-    /* top: 120%;  */
-    /* background-color: rgb(68,106,130);  */
-    background-color: rgb(119,209,139);
-    border-color: gray; 
-    max-width: 100%;
-    height: auto;
-    position: relative;
-    text-align: center;
-    color: white; 
-    font-family: "Great Vibes", cursive; 
-    font-size: 60px; 
-    line-height: 50px; 
-    font-weight: normal; 
-    text-align: center; 
-    text-shadow: 0 5px 5px black; 
-    padding: 50px;
-} 
+
 
 /* .info1{
     background-color: black;
