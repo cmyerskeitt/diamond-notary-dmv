@@ -6,13 +6,13 @@
     border-width: 0;
     /* box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15); */
 
-  }
+}
   
   /* @media (min-width: 992px) {
     .rounded-lg-3 { border-radius: .3rem; }
   } */
 
- .welcome {
+.welcome {
     position: static;
     top: 50px;
     background-color: black;
@@ -22,16 +22,18 @@
     font-size: 50px;  
     line-height: 80px; 
     font-weight: normal; 
- } 
+ 
+} 
 
-  .card{
-      border-width: 0;
-      background-color: rgb(91,140,144);
-      top: 70px;
-      position: static;
+.card{
+    border-width: 0;
+    background-color: rgb(91,140,144);
+    top: 70px;
+    position: static;
 
-  }
-    .card-img-top{
+}
+
+.card-img-top{
         position: static;
         height: 400px;
         width: 400px;
@@ -43,7 +45,9 @@
         border-style: inset;
         border-color: black;
         border-width: 10px;
-    }
+}
+
+
 
 
 /* 
@@ -59,23 +63,24 @@
     left: 5%;
 }  */
 
-/* .info {
-    top: 120%; 
-    background-color: gray; 
+.info {
+    /* top: 120%;  */
+    /* background-color: rgb(68,106,130);  */
+    background-color: rgb(119,209,139);
     border-color: gray; 
     max-width: 100%;
     height: auto;
-    position: absolute;
+    position: relative;
     text-align: center;
-    color: lightgreen; 
+    color: white; 
     font-family: "Great Vibes", cursive; 
-    font-size: 40px; 
+    font-size: 60px; 
     line-height: 50px; 
     font-weight: normal; 
     text-align: center; 
-    text-shadow: 0 1.5px 1.5px black; 
-    padding: 55px;
-} */
+    text-shadow: 0 5px 5px black; 
+    padding: 50px;
+} 
 
 /* .info1{
     background-color: black;
@@ -85,7 +90,7 @@
     padding: 30px;
     border-radius: 20px;
     font-family: "Great Vibes", cursive; 
-}  */
+}   */
 
 /* .hours {
     top: 180%;

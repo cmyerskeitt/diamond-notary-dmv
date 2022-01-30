@@ -8,12 +8,13 @@ function Home() {
     return (
         <div className="b-example-divider">
             <h1 className='welcome display-1'> Welcome to Diamond Notary DMV, LLC.</h1>
-                <div class="card">
-                    <img src={Logo} class="card-img-top" alt="Diamond DMV Logo"/>   
-                <div class="card-body">
-                <h2 className='info card-text '> Commision a professional Notary and Loan Signing agent with over 10 years  of experience notarizing accounting, real estate and property management documents. My reliability and attention to detail will make you a happy returning customer. </h2>
-                </div>
-            </div>    
+            <section class="card">
+                <img src={Logo} class="card-img-top" alt="Diamond DMV Logo"/>   
+                <section class="card-body">
+                    <h2 className="info"> Looking for a notary? </h2>
+                    <h3 className="card-text">Commision a professional Notary and Loan Signing agent with over 10 years  of experience notarizing accounting, real estate and property management documents. My reliability and attention to detail will make you a happy returning customer. </h3>
+                </section>
+            </section>    
             {/* <h2 className='info card-text '> Commision a professional Notary and Loan Signing agent with over 10 years  of experience notarizing accounting, real estate and property management documents. My reliability and attention to detail will make you a happy returning customer. 
             <br/> 
             <br/>
