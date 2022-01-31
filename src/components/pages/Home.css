@@ -22,13 +22,13 @@
     font-size: 50px;  
     line-height: 80px; 
     font-weight: normal; 
+    padding: 30px;
  
 } 
 
 .card{
-    /* border-width: 0; */
-    background-color: rgb(91,140,144);
-    /* top: 70px; */
+    border-width: 0;
+    background-color: rgb(68,106,130);
     position: static;
 
 }
@@ -72,9 +72,11 @@
     color: white;
     background-color:rgb(68,106,130) ;
     text-align: center; 
-    font-size: 40px;
+    font-size: 30px;
     padding: 25px;
-    border: 5px solid rgb(68,106,130)
+    text-shadow: 0 5px 5px black; 
+    border: 10px solid rgb(68,106,130)
+
 }
 
 ul{
@@ -82,52 +84,18 @@ ul{
     padding-left: 0;
     text-align: left;
     font-size: 30px;
-    padding: 30px;
-    
-
+    padding: 60px;
 }
 
-
-/* 
- .notaryBadge{
-    position: absolute;
-    top: 60%;
-    right: 5%;
-}
-
-.trainedBadge{
-    position: absolute;
-    top: 60%;
-    left: 5%;
-}  */
-
-
-
-/* .info1{
-    background-color: black;
-    position: absolute;
-    top: 80%;
-    left: 27%;
-    padding: 30px;
-    border-radius: 20px;
-    font-family: "Great Vibes", cursive; 
-}   */
-
-/* .hours {
-    top: 180%;
-    left: 35%;
-    background-color: gray;
-    max-width: 100%;
-    height: auto;
-    position: absolute;
+.info1{
+    background-color: rgb(68,106,130);
+    color: white;
+    position: relative;
+    padding: 40px;
     text-align: center;
-    color: lightgreen; 
+    font-size: 40px;
     font-family: "Great Vibes", cursive; 
-    font-size: 40px; 
-    line-height: 50px; 
-    font-weight: normal; 
-    text-align: center; 
-    text-shadow: 0 1.5px 1.5px black; 
-    padding: 20px;
-    border-radius: 20px;
-}  */
+    border: 10px solid white;
+    text-shadow: 0 5px 5px black;
+}   
+
