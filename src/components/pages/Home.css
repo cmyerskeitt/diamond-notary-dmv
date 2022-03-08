@@ -14,7 +14,7 @@
 
 .welcome {
     position: relative;
-    top: 25px;
+    top: 50px;
     background-color: black;
     color: white;
     text-align: center;
@@ -52,6 +52,7 @@
     background-color: rgb(119,209,139);
     max-width: 100%;
     position: relative;
+    top: 10px;
     text-align: center;
     color: white; 
     font-family: "Great Vibes", cursive; 
