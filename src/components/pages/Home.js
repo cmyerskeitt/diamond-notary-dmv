@@ -15,7 +15,7 @@ function Home() {
                 {/* <h2 className="info"> Looking for a notary? </h2>   */}
                 <h2 className='welcome display-1'> Welcome to Diamond Notary DMV, LLC.</h2> 
                     <section class="card-body"> 
-                        <h3 className='card-text'>Commision a professional Notary/Loan Signing agent with over 10 years  of experience related to:</h3>
+                        <h3 className='card-text'> Commision a professional Notary agent with over 10 years  of experience in:</h3>
                             <ul>
                                 <li> accounting</li>
                                 <li> real estate</li>
@@ -24,11 +24,13 @@ function Home() {
                             <img src={NSA_Badge} className='rounded float-start' alt='NSA Badge'/>
                             <img src={NSA_Trained_Badge} className='rounded float-end' alt='NSA Trained Badge'/>
                             <br></br>
-                            <h2> My reliability and attention to detail will make you a happy returning customer. </h2>
+                            <br></br>
+                            <br></br>
+                            <h3 className='card-text'> Call Me Today to Schedule Your Signing!  <br></br> My reliability and attention to detail will make you a happy returning customer. </h3>
+                            
                     </section>
                 </section>   
-                <section className='info1'>
-                    <h2><em>Call Me Today to Schedule Your Signing!</em><br></br>(240)-424-9577</h2>
+                <footer className='info1'>
                     <br></br>
                     <h2>
                         Hours of Operation <br></br>
@@ -36,7 +38,7 @@ function Home() {
                         Saturday: 9 am - 9pm <br></br>
                         Sunday: 9 am - 9 pm 
                     </h2> 
-                </section>
+                </footer>
             </div>
         </div>
     )
