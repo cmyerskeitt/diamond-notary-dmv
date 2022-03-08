@@ -8,9 +8,9 @@ function Navbar() {
      
         <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
             <div class="container-fluid">
-                {/* <Link to='/' class="navbar-brand" >
+                <Link to='/' class="navbar-brand" >
                     <img src={Logo} width="100" height="100" class="d-inline-block align-text-top" alt='Diamond Notary Logo'/>       
-                </Link> */}
+                </Link>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">
