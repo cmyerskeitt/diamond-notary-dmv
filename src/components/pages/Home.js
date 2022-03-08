@@ -8,10 +8,12 @@ function Home() {
     return (
         <div class="container-fluid">
             <div className="b-example-divider">
-                <h1 className='welcome display-1'> Welcome to Diamond Notary DMV, LLC.</h1>
+                {/* <h1 className='welcome display-1'> Welcome to Diamond Notary DMV, LLC.</h1> */}
+                <h1 className='info'> Looking for a Notary?</h1>
                 <section class="card">
                 <img src={Logo} class="card-img-top" alt="Diamond DMV Logo"/> 
-                <h2 className="info"> Looking for a notary? </h2>   
+                {/* <h2 className="info"> Looking for a notary? </h2>   */}
+                <h2 className='welcome display-1'> Welcome to Diamond Notary DMV, LLC.</h2> 
                     <section class="card-body"> 
                         <h3 className='card-text'>Commision a professional Notary/Loan Signing agent with over 10 years  of experience related to:</h3>
                             <ul>
