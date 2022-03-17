@@ -15,7 +15,7 @@
 .welcome {
     position: relative;
     top: 10px;
-    background-color: black;
+    background-color: #212529;
     color: white;
     text-align: center;
     font-family: "Great Vibes", cursive; 
@@ -43,7 +43,7 @@
     margin-top: 40px;
     margin-bottom: 40px;
     border-style: inset;
-    border-color: black;
+    border-color: #212529;
     border-width: 10px;
 }
 
@@ -91,7 +91,7 @@ ul{
 }
 
 .info1{
-    background-color:black;
+    background-color:#212529;
     color: white;
     position: relative;
     padding: 10px;
