@@ -30,7 +30,6 @@
     border-width: 0;
     background-color: rgb(68,106,130);
     position: static;
-
 }
 
 .card-img-top{
@@ -101,3 +100,15 @@ ul{
     text-shadow: 0 5px 5px black;
 }   
 
+.slogan{
+    bottom: 30px;
+}
+
+.capital{
+    height: 700px !important;
+    width: 700px;
+}
+
+h3{
+    float: right;
+}
