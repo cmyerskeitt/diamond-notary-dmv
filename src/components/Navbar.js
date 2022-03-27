@@ -8,6 +8,9 @@ function Navbar() {
      
         <nav class="navbar navbar-expand-lg bg-dark">
             <div class="container-fluid">
+                <Link to='/' class="navbar-brand" >
+                    <img src={Logo} width="150" height="150" alt='Diamond Notary Logo'/>       
+                </Link>
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                         <li class="nav-item">

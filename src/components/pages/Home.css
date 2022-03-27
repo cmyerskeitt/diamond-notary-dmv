@@ -14,7 +14,6 @@
 
 .welcome {
     position: relative;
-    top: 10px;
     background-color: #212529;
     color: white;
     text-align: center;
@@ -39,8 +38,8 @@
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 40px;
-    margin-bottom: 40px;
+    /* margin-top: 40px; */
+    /* margin-bottom: 40px; */
     border-style: inset;
     border-color: #212529;
     border-width: 10px;
@@ -60,6 +59,7 @@
     text-align: center; 
     text-shadow: 0 5px 5px black; 
     padding: 50px;
+    margin-top: auto;
 }
 
 .card-body{
@@ -98,6 +98,8 @@ ul{
     font-family: "Great Vibes", cursive; 
     border: 10px solid white;
     text-shadow: 0 5px 5px black;
+    font-size: 60px; 
+    line-height: 50px; 
 }   
 
 .slogan{
@@ -105,8 +107,17 @@ ul{
 }
 
 .capital{
-    height: 700px !important;
-    width: 700px;
+    position: static;
+    height:500px;
+    width: auto;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-style: inset;
+    border-color: #212529;
+    border-width: 10px;
 }
 
 h3{
