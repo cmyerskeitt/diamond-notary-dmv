@@ -22,7 +22,6 @@
     line-height: 80px; 
     font-weight: normal; 
     padding: 30px;
- 
 } 
 
 .card{
@@ -30,6 +29,13 @@
     background-color: rgb(68,106,130);
     position: static;
 }
+
+.card-body{
+    /* border-width: 0; */
+    background-color: rgb(119,209,139);
+    color: black;
+}
+
 
 .card-img-top{
     position: static;
@@ -46,7 +52,6 @@
 }
 
 .info {
-    /* background-color: rgb(68,106,130);  */
     background-color: rgb(119,209,139);
     max-width: 100%;
     position: relative;
@@ -96,7 +101,7 @@ ul{
     padding: 10px;
     text-align: center;
     font-family: "Great Vibes", cursive; 
-    border: 10px solid white;
+    /* border: 10px solid white; */
     text-shadow: 0 5px 5px black;
     font-size: 60px; 
     line-height: 50px; 
@@ -122,4 +127,8 @@ ul{
 
 h3{
     float: right;
+}
+
+#deyonna{
+    border: 5px dashed rgb(119,209,139);
 }
