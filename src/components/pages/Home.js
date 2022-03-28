@@ -24,8 +24,8 @@ function Home() {
                     <h4 className="card-text"> My reliability and attention to detail will make you a happy returning customer.</h4>
                 </section>
                 <footer className='footer'>
-                    <h2>Hours of Operation </h2> 
-                    <h2>Monday-Friday: 3pm - 9pm <br></br>
+                    <h2 className='footer'>Hours of Operation </h2> 
+                    <h2 className='footer'>Monday-Friday: 3pm - 9pm <br></br>
                         Saturday: 9 am - 9pm <br></br>
                         Sunday: 9 am - 9 pm </h2>
                 </footer>
