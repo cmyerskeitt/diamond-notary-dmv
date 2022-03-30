@@ -1,12 +1,11 @@
 import React from 'react'
-import NSA_Badge from '../images/nsa_member_badge.png'
-import NSA_Trained_Badge from '../images/nsa-trained-badge.png'
-import Logo from '../images/DiamondNotaryDMVLogo.jpg'
+// import NSA_Badge from '../images/nsa_member_badge.png'
+// import NSA_Trained_Badge from '../images/nsa-trained-badge.png'
 import './Home.css'
 
 function Home() {
     return (
-        <div class="container-fluid">
+        <div className="container-fluid">
             <div className="b-example-divider">
                 <h1 className='info'> Looking for a Notary?</h1>
                 <section className="card">
