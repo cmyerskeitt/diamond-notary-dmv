@@ -12,10 +12,10 @@ function App() {
     <div>
       <Router>
         <Navbar />
-        {/* <Home/> */}
-        <About/>
-        {/* <Contact/>
-        <Pricing/> */}
+        {/* <Home/>
+        <About/> */}
+        <Contact/>
+        {/* <Pricing/> */}
 
         {/* <Switch>
           <Route exact path='/' >
