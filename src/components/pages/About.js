@@ -1,5 +1,7 @@
 import React from "react"
 import Headshot from '../images/Headshot1.jpg'
+import NSA_Badge from '../images/nsa_member_badge.png'
+import NSA_Trained_Badge from '../images/nsa-trained-badge-modified.png'
 import './About.css'
 
 class About extends React.Component{
@@ -23,6 +25,10 @@ class About extends React.Component{
                     <li>Completely Background Screened</li>
                     <li>Local, Black Woman Owned Business</li>
                 </ul>
+            </section>
+            <section>
+                        <img src={NSA_Badge} className='rounded float-start notaryBadge' alt='NSA Badge'/>
+                        <img src={NSA_Trained_Badge} className='rounded float-end trainedBadge' alt='NSA Trained Badge'/>
             </section>
         </div> 
     

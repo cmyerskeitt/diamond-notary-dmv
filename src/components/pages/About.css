@@ -37,8 +37,23 @@
     font-family: "Great Vibes", cursive; 
     background-color: lightgreen;
     font-size: 25px; 
-    top: 85%;
-    left: 15%;
+    /* top: 85%;
+    left: 15%; */
     padding: 40px;
     border-radius: 20px; 
+    top: 125%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+.notaryBadge{
+    position: absolute;
+    top: 50%;
+    right: 5%;
+}
+
+.trainedBadge{
+    position: absolute;
+    top: 50%;
+    left: 5%;
 }

@@ -1,11 +1,13 @@
 import React from "react"
-class Contact extends React.Component{
+
+class Pricing extends React.Component{
   
     render(){
         return (
           
            <div>
                <h1 className="welcome"> Meet Your Notary Specialist</h1>
+
                <br></br>
                <section className='credentials'> 
                    <h2> <center> Deyonna Roberts, CEO</center></h2>
@@ -19,6 +21,8 @@ class Contact extends React.Component{
                        <li>Completely Background Screened</li>
                        <li>Local, Black Woman Owned Business</li>
                    </ul>
+        
+                 
                </section>
            </div> 
        
@@ -26,4 +30,4 @@ class Contact extends React.Component{
     }
 }
 
-export default Contact
+export default Pricing

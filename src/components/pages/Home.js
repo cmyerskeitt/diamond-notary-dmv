@@ -1,6 +1,4 @@
 import React from 'react'
-// import NSA_Badge from '../images/nsa_member_badge.png'
-// import NSA_Trained_Badge from '../images/nsa-trained-badge.png'
 import './Home.css'
 
 function Home() {
@@ -28,10 +26,6 @@ function Home() {
                         Saturday: 9 am - 9pm <br></br>
                         Sunday: 9 am - 9 pm </h2>
                 </footer>
-                            {/* <img src={NSA_Badge} className='rounded float-start' alt='NSA Badge'/>
-                            <img src={NSA_Trained_Badge} cla
-                            ssName='rounded float-end' alt='NSA Trained Badge'/> 
-                    */}
             </div>
         </div>
 
