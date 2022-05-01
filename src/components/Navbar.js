@@ -17,8 +17,8 @@ function Navbar() {
                             <Link to='/' className="nav-link active" aria-current="page">Home</Link>
                         </li>
                         <li className="nav-item">
-                                <Link to='/services' className="nav-link" aria-current="page" > 
-                                Services
+                                <Link to='/pricing' className="nav-link" aria-current="page" > 
+                               Pricing
                                 </Link>
                         </li>
                         <li className="nav-item">
@@ -43,8 +43,8 @@ function Navbar() {
                             <Link to='/' className="nav-link active">Home</Link>
                         </li>
                         <li className="dropdown-item">
-                                <Link to='/services' className="nav-link" > 
-                                Services
+                                <Link to='/pricing' className="nav-link" > 
+                                Pricing
                                 </Link>
                         </li>
                         <li className="dropdown-item">

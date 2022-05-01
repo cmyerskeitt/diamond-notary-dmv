@@ -24,17 +24,19 @@
 .card{
     border-width: 0;
     background-color: rgb(68,106,130);
-    position: static;
+    position: relative;
 }
 
 .card-img-top{
-    position: relative;
+    position: absolute;
+    top: 100px;
+    right: 5px;
     height: 400px;
     width: 400px;
     display: block;
-    margin-left: auto;
-    margin-right: auto;
-    /* margin-top: 40px; */
+    /* margin-left: auto;
+    margin-right: auto; */
+    margin-top: 100px;
     /* margin-bottom: 40px; */
     border-style: inset;
     border-color: #212529;
