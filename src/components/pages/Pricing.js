@@ -1,33 +1,26 @@
 import React from "react"
+import Pricelist from "./Pricelist"
+import './Pricing.css'
 
 class Pricing extends React.Component{
   
-    render(){
-        return (
-          
-           <div>
-               <h1 className="welcome"> Meet Your Notary Specialist</h1>
-
-               <br></br>
-               <section className='credentials'> 
-                   <h2> <center> Deyonna Roberts, CEO</center></h2>
-                   <br></br>
-                   <ul>
-                       <li>Notary for over 7 years (MD)</li>
-                       <li>Licensed Title Producer (MD- TIPIC)</li>
-                       <li>Experience notarizing banking, real estate and property management documents</li>
-                       <li>Successfully completed over 200 signings</li> 
-                       <li>Insured: E&O of $50,000</li>
-                       <li>Completely Background Screened</li>
-                       <li>Local, Black Woman Owned Business</li>
-                   </ul>
-        
-                 
-               </section>
-           </div> 
+ render(){
+     return (
        
+        <div>
+        <h1 className='priceheader'>Diamond Notary DMV Pricing </h1>
+        {/* <div className="pricelist">
+            <Pricelist/> 
+        </div> */}
+            <div className="payment"> 
+                Accepted Methods of Payment: <br></br>
+                Cash, Venmo, Cashapp, and Zelle 
+            </div>
+        </div> 
         )
     }
 }
+
+
 
 export default Pricing
