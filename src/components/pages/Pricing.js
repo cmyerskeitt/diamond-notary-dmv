@@ -9,9 +9,9 @@ class Pricing extends React.Component{
        
         <div>
         <h1 className='priceheader'>Diamond Notary DMV Pricing </h1>
-        {/* <div className="pricelist">
+        <div className="pricelist">
             <Pricelist/> 
-        </div> */}
+        </div>
             <div className="payment"> 
                 Accepted Methods of Payment: <br></br>
                 Cash, Venmo, Cashapp, and Zelle 
