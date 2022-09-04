@@ -31,7 +31,6 @@
     font-weight: normal; 
     text-align: center; 
     text-shadow: 0 1.5px 1.5px rgb(68,106,130); 
-
 }  
 
 .tableheader{
@@ -56,12 +55,6 @@
     text-align: center; 
     text-shadow: 0 1.5px 1.5px rgb(68,106,130);  
 }
-
-/* .pricelist{
-    margin-left: auto;
-    margin-right: auto;
-    padding: 0px;
-}   */
 
 section{
     position: sticky;

@@ -10,11 +10,12 @@
     background-color:  rgb(68,106,130);
     font-size: 25px; 
     color: white;
-    top: 200px;
+    top: 40px;
 }
 
 .form-message {
     width: 800px;
+    max-width: 75%;
     height: 300px;
     font-size: 20px;
     border: 5px solid rgb(119,209,139); 
@@ -39,3 +40,21 @@
     background-color: rgb(119,209,139);
     border: 5px solid rgb(119,209,139);
 }
+
+
+.welcome {
+    width: auto\9; 
+    width: 100%;
+    background-color: rgb(119,209,139) ;
+    max-width: 100%;
+    height: auto;
+    position: relative;
+    text-align: center;
+    color: white; 
+    font-family: "Great Vibes", cursive; 
+    font-size: 80px; 
+    line-height: 120px; 
+    font-weight: normal; 
+    text-align: center; 
+    text-shadow: 0 1.5px 1.5px rgb(68,106,130); 
+}  
