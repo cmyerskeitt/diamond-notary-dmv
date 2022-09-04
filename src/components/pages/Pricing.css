@@ -5,6 +5,7 @@
     padding: 40px;
     text-align: center;
     max-width: 50%;
+    min-width: fit-content;
     height: auto;
     font-family: "Great Vibes", cursive; 
     background-color:  rgb(68,106,130);
@@ -62,4 +63,5 @@ section{
     border-radius: 25% 10%;
     padding: 50px;
     text-align: center;
+   
 }
