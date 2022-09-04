@@ -1,6 +1,7 @@
 .table{
-    position: relative;
+    position: auto;
     margin: auto;
+    margin-top: 40px;
     padding: 40px;
     text-align: center;
     max-width: 50%;
@@ -9,10 +10,10 @@
     background-color:  rgb(68,106,130);
     font-size: 25px; 
     top: 150px;
-    padding: 40px;
     border-radius: 20px;
     color: white;
     text-shadow: 0 1.5px 1.5px black; 
+    
 }
 
 .priceheader {
@@ -21,7 +22,7 @@
     background-color: rgb(119,209,139) ;
     max-width: 100%;
     height: auto;
-    position: absolute;
+    position: relative;
     text-align: center;
     color: white; 
     font-family: "Great Vibes", cursive; 
@@ -35,23 +36,23 @@
 
 .tableheader{
     background-color: white;
+
 }
 
 .payment{
     width: 100%;
-    border-radius: 20px;
     background-color: rgb(119,209,139) ;
     max-width: 100%;
     height: auto;
-    position: absolute;
-    top: 110%;
+    position: relative;
+    margin-top: 40px;
+    /* top: 110%; */
     text-align: center;
     color: white; 
     font-family: "Great Vibes", cursive; 
     font-size: 60px; 
     line-height: 100px; 
     font-weight: normal; 
-    margin-top: 20px; 
     text-align: center; 
     text-shadow: 0 1.5px 1.5px rgb(68,106,130);  
 }
@@ -60,9 +61,12 @@
     margin-left: auto;
     margin-right: auto;
     padding: 0px;
-}  */
+}   */
 
 section{
+    position: sticky;
     color: white;
-
+    border-radius: 25% 10%;
+    padding: 50px;
+    text-align: center;
 }
