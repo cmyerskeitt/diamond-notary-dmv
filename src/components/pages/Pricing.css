@@ -6,28 +6,31 @@
     max-width: 50%;
     height: auto;
     font-family: "Great Vibes", cursive; 
-    background-color: lightgreen;
+    background-color:  rgb(68,106,130);
     font-size: 25px; 
     top: 150px;
     padding: 40px;
     border-radius: 20px;
+    color: white;
+    text-shadow: 0 1.5px 1.5px black; 
 }
 
 .priceheader {
     width: auto\9; 
     width: 100%;
-    background-color: gray;
+    background-color: rgb(119,209,139) ;
     max-width: 100%;
     height: auto;
     position: absolute;
     text-align: center;
-    color: lightgreen; 
+    color: white; 
     font-family: "Great Vibes", cursive; 
     font-size: 80px; 
     line-height: 120px; 
     font-weight: normal; 
     text-align: center; 
-    text-shadow: 0 1.5px 1.5px black; 
+    text-shadow: 0 1.5px 1.5px rgb(68,106,130); 
+
 }  
 
 .tableheader{
@@ -37,20 +40,20 @@
 .payment{
     width: 100%;
     border-radius: 20px;
-    background-color: gray;
+    background-color: rgb(119,209,139) ;
     max-width: 100%;
     height: auto;
     position: absolute;
     top: 110%;
     text-align: center;
-    color: lightgreen; 
+    color: white; 
     font-family: "Great Vibes", cursive; 
     font-size: 60px; 
     line-height: 100px; 
     font-weight: normal; 
     margin-top: 20px; 
     text-align: center; 
-    text-shadow: 0 1.5px 1.5px black;  
+    text-shadow: 0 1.5px 1.5px rgb(68,106,130);  
 }
 
 /* .pricelist{
@@ -58,3 +61,8 @@
     margin-right: auto;
     padding: 0px;
 }  */
+
+section{
+    color: white;
+
+}

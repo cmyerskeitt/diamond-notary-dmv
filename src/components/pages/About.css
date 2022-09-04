@@ -14,18 +14,18 @@
 .welcome {
     width: auto\9; 
     width: 100%;
-    background-color: gray;
+    background-color: rgb(119,209,139);
     max-width: 100%;
     height: auto;
     position: absolute;
     text-align: center;
-    color: lightgreen; 
+    color: white; 
     font-family: "Great Vibes", cursive; 
     font-size: 80px; 
     line-height: 120px; 
     font-weight: normal; 
     text-align: center; 
-    text-shadow: 0 1.5px 1.5px black; 
+    text-shadow: 0 1.5px 1.5px rgb(68,106,130); 
 }
 
 .credentials {
@@ -35,16 +35,15 @@
     width: auto\9; 
     height: auto;
     font-family: "Great Vibes", cursive; 
-    background-color: lightgreen;
+    background-color:  rgb(68,106,130);
     font-size: 25px; 
-    /* top: 85%;
-    left: 15%; */
     padding: 40px;
     border-radius: 20px; 
     top: 125%;
     left: 50%;
     transform: translate(-50%, -50%);
-}
+    color: white;
+}  
 
 .notaryBadge{
     position: absolute;

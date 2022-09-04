@@ -4,32 +4,38 @@
     max-width: 100%;
     height: auto;
     font-family: "Great Vibes", cursive; 
-    background-color: lightgreen;
+    background-color:  rgb(68,106,130);
     font-size: 25px; 
     top: 50%;
     right: 20%;
     padding: 40px;
     border-radius: 20px;
+    color: white;
 }
 
 .form-message {
     width: 800px;
     height: 300px;
-    font-size: 20px; 
+    font-size: 20px;
+    border: 5px solid rgb(119,209,139); 
 }
 
 .form-email {
     width: 500px;
     height: 50px;
     font-size: 20px; 
+    border: 5px solid rgb(119,209,139);
 }
 
 .form-name {
     width: 500px;
     height: 50px;
     font-size: 20px; 
+    border: 5px solid rgb(119,209,139);
 }
 
 .form-submit {
     font-size: 20px; 
+    background-color: rgb(119,209,139);
+    border: 5px solid rgb(119,209,139);
 }

@@ -18,7 +18,7 @@ function Pricelist(){
      return (
         <div className='table'>
             {/* //apply the table props */}
-            <section className=''>
+            <section className='border'>
             {/* <h2 > Prices </h2> */}
                 <table {...getTableProps()}>
                     <thead className='tableheader'>
