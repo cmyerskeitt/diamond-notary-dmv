@@ -1,12 +1,12 @@
 
-.b-example-divider {
+/* .b-example-divider {
     height: 10rem;
     background-color: rgba(0, 0, 0, .1);
     border: solid rgba(0, 0, 0, .15);
     border-width: 0;
     box-shadow: inset 0 .5em 1.5em rgba(0, 0, 0, .1), inset 0 .125em .5em rgba(0, 0, 0, .15);
     min-width: fit-content;
-}
+} */
   
 
 .welcome {
@@ -15,18 +15,22 @@
     color: white;
     text-align: center;
     font-family: "Great Vibes", cursive; 
-    font-size: 50px;  
-    line-height: 80px; 
     font-weight: normal; 
-    padding: 30px;
+    padding: 20px;
+    left: -13%;
+    transform: translate(13%, 5%);
 } 
 
 .card{
+    position: relative;
+    left: -13%;
+    transform: translate(13%, 0%);
     border-width: 0;
     background-color: rgb(68,106,130);
     position: relative;
     margin:auto;
-    min-width: fit-content;
+    border-radius: 10%;
+    
 }
 
 .card-img-top{
@@ -40,29 +44,32 @@
     border-style: inset;
     border-color: #212529;
     border-width: 10px;
+    min-width:fit-content;
 }
 
 .info {
+    position: relative;
+    left: -15%;
+    transform: translate(15%, 35%);
     background-color: rgb(119,209,139);
     max-width: 100%;
     position: relative;
-    top: 10px;
     text-align: center;
     color: white; 
     font-family: "Great Vibes", cursive; 
     font-size: 60px; 
     line-height: 50px; 
-    text-align: center; 
     text-shadow: 0 5px 5px black; 
-    padding: 50px;
-    margin-top: auto;
+    padding: 40px 0px 150px 0px;
+    margin: auto;
+    min-width: fit-content;
 }
 
 .card-text{
     position: relative;
     top: -8px;
     color: black;
-    background-color:rgb(119,209,139) ;
+    background-color: rgb(68,106,130);
     text-align: center; 
     font-family: "Great Vibes", cursive;
     font-size: 40px;
@@ -92,7 +99,7 @@ li{
     background-color:#212529;
     color: white;
     position: relative;
-    padding: 10px;
+    padding: 40px;
     text-align: center;
     font-family: "Great Vibes", cursive; 
     text-shadow: 0 5px 5px black;
@@ -101,9 +108,10 @@ li{
 }   
 
 .capital{
-    position: static;
-    height:500px;
+    position: relative;
+    height:auto;
     width: auto;
+    max-width: 50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
@@ -119,18 +127,18 @@ li{
 }
 
 .footer{
-    background-color:#212529;
+    background-color: rgb(119,209,139);
     color: white;
     position: relative;
     top: -30px;
-    padding: 0px;
+    padding-bottom: 10px;
     text-align: center;
     font-family: "Great Vibes", cursive; 
     text-shadow: 0 5px 5px black;
     font-size: 40px; 
     line-height: 50px; 
     max-width: auto;
-    border-radius: 0%;
+
 }  
 
 .phone{
