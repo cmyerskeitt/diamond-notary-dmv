@@ -5,10 +5,9 @@
     width: auto\9; 
     height: auto;
     border-radius: 50%;
-    position: absolute;
-    top: 70%;
+    position:relative;
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 15%);
 } 
 
 .welcome {
@@ -17,7 +16,7 @@
     background-color: rgb(119,209,139);
     max-width: 100%;
     height: auto;
-    position: absolute;
+    position: relative;
     text-align: center;
     color: white; 
     font-family: "Great Vibes", cursive; 
@@ -29,7 +28,7 @@
 }
 
 .credentials {
-    position: absolute;
+    position: relative;
     text-align: left;
     max-width: 100%; 
     width: auto\9; 
@@ -39,20 +38,23 @@
     font-size: 25px; 
     padding: 40px;
     border-radius: 20px; 
-    top: 125%;
+    top: 125%; 
     left: 50%;
-    transform: translate(-50%, -50%);
+    transform: translate(-50%, 35%);
     color: white;
 }  
 
 .notaryBadge{
     position: absolute;
-    top: 50%;
-    right: 5%;
+    bottom: 750%;
+    left: 20%;
+    transform: translate(-50%, 10%);
+
 }
 
 .trainedBadge{
     position: absolute;
-    top: 50%;
-    left: 5%;
+    bottom: 750%;
+    left: 80%;
+    transform: translate(-50%, 10%);
 }
