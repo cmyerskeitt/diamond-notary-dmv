@@ -13,8 +13,9 @@ class About extends React.Component{
             <h1 className="welcome"> Meet Your Notary Specialist</h1>
             <img src={Headshot} className='headshot' alt='Headshot'/>
             <br></br>
+            <h2> <center> Deyonna Roberts, CEO</center></h2>
             <section className='credentials'> 
-                <h2> <center> Deyonna Roberts, CEO</center></h2>
+                {/* <h2> <center> Deyonna Roberts, CEO</center></h2> */}
                 <br></br>
                 <ul>
                     <li>Notary for over 7 years (MD)</li>
