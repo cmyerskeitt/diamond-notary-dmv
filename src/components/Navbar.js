@@ -1,12 +1,13 @@
 import React from 'react'
 import {Link} from 'react-router-dom'
 import Logo from './images/DiamondNotaryDMVLogo.jpg'
-// import './Navbar.css'
+import './Navbar.css'
 
 function Navbar() {  
     return (
      
-        <nav className="navbar fixed-top navbar-expand-lg bg-dark">
+        <nav className="navbar navbar-expand-lg bg-dark">
+            {/* fixed-top */}
             <div className="container-fluid">
                 <Link to='/' className="navbar-brand" >
                     <img src={Logo} width="150" height="150" alt='Diamond Notary Logo'/>       
