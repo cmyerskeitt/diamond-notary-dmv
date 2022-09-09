@@ -23,7 +23,7 @@
     
 }
 
-.card-img-top{
+/* .card-img-top{
     position: absolute;
     top: 100px;
     right: 5px;
@@ -35,7 +35,7 @@
     border-color: #212529;
     border-width: 10px;
     min-width:fit-content;
-}
+} */
 
 .info {
     position: relative;
@@ -105,8 +105,6 @@ li{
     display: block;
     margin-left: auto;
     margin-right: auto;
-    margin-top: 20px;
-    margin-bottom: 20px;
     border-style: inset;
     border-color: #212529;
     border-width: 10px;

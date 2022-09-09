@@ -41,6 +41,7 @@ h2 {
     font-size: 80px; 
     line-height: 120px; 
     font-weight: normal; 
+    align: center; 
     text-shadow: 0 1.5px 1.5px rgb(68,106,130); 
 }
 

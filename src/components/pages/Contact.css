@@ -10,7 +10,7 @@
     background-color:  rgb(68,106,130);
     font-size: 25px; 
     color: white;
-    top: 40px;
+    top: 5px;
 }
 
 .form-message {
@@ -52,6 +52,7 @@
     max-width: 100%;
     height: auto;
     position: relative;
+    top: -20px;
     text-align: center;
     color: white; 
     font-family: "Great Vibes", cursive; 
